@@ -1,0 +1,98 @@
+/* screen size below 1200 px */
+
+@media only screen and (max-width: 1200px) {
+    
+        .row {    
+            max-width: 70vw;
+        }
+    }
+
+/* screen size below 1024 px */
+
+@media only screen and (max-width: 1024px) {
+        
+        .row {
+            max-width: 80vw;
+        }
+    
+        .main-header {
+            font-size: 4rem;
+        }
+    
+        .app-screen {
+            width: 70%;
+        }        
+    }
+
+/* screen size below 900 px */
+
+@media only screen and (max-width: 900px) {
+          
+        .row {
+            max-width: 95vw;
+        }
+    
+        .main-header {
+            font-size: 3rem;
+        }
+    
+        .app-screen {
+            width: 60%;
+        }
+    }
+               
+/* screen size below 780 px */
+
+@media only screen and (max-width: 780px) {
+        
+        .row {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .widget-small,
+        .widget-big {
+            margin-bottom: 2rem;
+        }
+    
+        section {
+            margin: 2rem auto;
+        }
+    
+        section:after {
+            display: block;
+            height: 2px;
+            background-image: linear-gradient(to right bottom, pink, blueviolet);
+            color: transparent;
+            content: " ";
+            width: 100px;
+            margin: 2rem auto;
+        }
+    
+        .btn-app img {
+            height: 3rem;
+            width: auto;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+        }
+    
+        .widget-small,
+        .widget-big {            
+            max-width: 100%;
+        }    
+}
+               
+/* screen size below 600 px */
+
+@media only screen and (max-width: 600px) {
+        .row {
+            max-width: 98vw;
+        }
+        .main-header {
+            font-size: 2rem;
+        }
+    
+        .heading-secondary {
+            font-size: 1.3rem;
+        }
+}
