@@ -27,6 +27,7 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: space-around;
 }
 
 /*------------TEXT---------*/
@@ -101,6 +102,10 @@ section {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+}
+
+.hero-image {
+    text-align: center;
 }
 
 .app-screen {
