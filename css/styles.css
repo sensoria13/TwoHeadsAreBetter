@@ -400,11 +400,11 @@ section {
     flex-wrap: nowrap;
 }
 
+/* Maybe? */
 
-.widget-small .widget-line__simp:nth-last-of-type(1){
+/* .widget-small .widget-line__simp:nth-last-of-type(1){
     border-bottom: 1px solid transparent;
-}
-
+} */
 
 /* Reminders_small*/
 
