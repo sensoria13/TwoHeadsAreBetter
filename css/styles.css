@@ -317,3 +317,177 @@ section {
     transition: transform .2s;
     transition: transform .2s, -webkit-transform .2s;
 }
+
+/* Photo_small */
+
+.widget-photos__content__small {
+    display: inline-block;
+    position: absolute;
+    width: 329px;
+    height: 155px;
+    left: auto;
+    top: auto;
+    border-radius: 21.67px;
+}
+
+/* Photo_big */
+
+.widget-photos__content__big {
+    display: inline-block;
+    position: absolute;
+    width: 329px;
+    height: 345px;
+    left: auto;
+    top: auto;
+    border-radius: 21.67px;
+}
+
+/* Featured Photo */
+
+.widget-text-photo {
+    position: absolute;
+    width: 66px;
+    height: 36px;
+    left: 16px;
+    top: 103px;
+
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+
+    text-shadow: 0 0 11px #000000;
+}
+
+.widget-text-photo:hover {
+    text-shadow: 1px 1px 3px black, 0 0 1em grey;
+}
+
+.widget-text-photo__big {
+    position: absolute;
+    width: 66px;
+    height: 36px;
+    left: 16px;
+    top: 293px;
+
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+
+    text-shadow: 0 0 11px #000000;
+}
+
+.widget-text-photo__big:hover {
+    text-shadow: 1px 1px 3px black, 0 0 1em grey;
+}
+
+.widget-albums__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+
+.widget-small .widget-line__simp:nth-last-of-type(1){
+    border-bottom: 1px solid transparent;
+}
+
+
+/* Reminders_small*/
+
+.smallRemColLeft {
+    font-size: 17px;
+    color: orange;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 25%;
+    float: left;
+    height: 33.3333333333%;
+}
+
+.smallRemColRight {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 75%;
+    float: left;
+    height: 33.3333333333%;
+}
+
+.row {
+    height: 33.3333333333%;
+}
+
+.sub__text {
+    color: gray;
+    font-size: 14px;
+}
+
+.sub__header {
+    font-size: 24px;
+    color: black;
+}
+
+.list__image {
+    margin-bottom: 20px;
+}
+
+/* Reminders_big*/
+
+.bigRemColLeft__family {
+   font-size: 17px;
+    color: orange;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 75%;
+    float: left;
+    height: 16.6666666666%; 
+}
+
+.bigRemColLeft {
+    font-size: 17px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 75%;
+    float: left;
+    height: 16.6666666666%;
+
+}
+
+.bigRemColRight {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    width: 75%;
+    float: right;
+    height: 16.6666666666%;
+}
+
+.row__big {
+    height: 16.6666666666%;
+}
+
+.list__image__big {
+    text-align: right;
+}
